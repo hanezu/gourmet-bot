@@ -1,0 +1,24 @@
+{
+  "name": "kinshicho-gourmet",
+  "version": "0.0.0",
+  "description": "Recommend restaurants near Kinshicho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w -p .",
+    "tsc-init": "tsc --init"
+  },
+  "author": "Hanezu",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "@slack/events-api": "^3.0.0",
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
